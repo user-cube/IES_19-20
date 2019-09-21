@@ -1,0 +1,22 @@
+*   9e7fe58 (HEAD -> master, origin/master, origin/HEAD) Merge pull request #3 from user-cube/SearchByName
+|\  
+| * 0e8a428 (origin/SearchByName, SearchByName) Documentation
+| * c94aa94 Clean
+| * a3f6127 Delete prints
+* |   9ac5c5f Merge pull request #2 from user-cube/SearchByName
+|\ \  
+| |/  
+| * 7e9b0c9 Search by name
+* |   fdadfcd Merge pull request #1 from user-cube/Logger
+|\ \  
+| |/  
+| * 1a8ea55 (origin/Logger, Logger) Small fix
+| * 730832a Clean
+| * b83be21 Clean
+| * 36d52ee Logger feature
+|/  
+* 6068fb2 Clean and ignore
+* 98f7c0c WeatherRadar
+* b015e84 Git ignore
+* 1d2029c Gitignore
+* c2e8c18 Initial commit
