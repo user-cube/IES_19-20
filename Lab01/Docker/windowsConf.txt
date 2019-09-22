@@ -1,0 +1,2 @@
+Open VirtualBox instalation folder and type:
+VBoxManage modifyvm YourVirtualBoxName --nested-hw-virt on
