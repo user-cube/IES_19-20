@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>WeatherRadar</groupId>
+    <groupId>ccom.IES.weatherRadar</groupId>
     <artifactId>weatherRadar</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -15,44 +15,57 @@
 
     <distributionManagement>
         <site>
-            <id>WeatherRadar</id>
-            <url>http://api.ipma.pt/</url>
+            <id>Rui Coelho</id>
+            <url>https://ruicoelho.pt/</url>
         </site>
     </distributionManagement>
 
     <properties>
+        <!-- Set compiler version -->
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
     <dependencies>
         <dependency>
+            <!-- Retrofit dependence -->
             <groupId>com.squareup.retrofit2</groupId>
             <artifactId>retrofit</artifactId>
             <version>2.3.0</version>
         </dependency>
+        <!-- GSON dependence -->
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
             <artifactId>converter-gson</artifactId>
             <version>2.3.0</version>
         </dependency>
+        <!-- Enable logging -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.1</version>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
-
+            <!-- Plugin to generate the maven website -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.7.1</version>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
                 <version>3.0.0</version>
             </plugin>
-
+            <!-- Enable javadoc -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -62,13 +75,13 @@
                     <nohelp>true</nohelp>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
     <reporting>
         <plugins>
             <plugin>
+                <!--Allows javadoc to appear in maven website -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.1.1</version>

@@ -282,3 +282,65 @@ class CityForecast {
         this.latitude = latitude;
     }
 }
+
+class IPMAInformation
+{
+    @SerializedName("local")
+    @Expose
+    private String local;
+
+    @SerializedName("globalIdLocal")
+    @Expose
+    private String globalIdLocal;
+
+    @SerializedName("data")
+    @Expose
+    private List<IPMAInformation> data = null;
+
+    /**
+     * Get the ID given a name.
+     * @return ID if the name exists,
+     * otherwise null.
+     */
+    public String getData(String city) {
+        for (IPMAInformation a : data){
+            if (a.getLocal().equals(city)){
+                return a.getGlobalIdLocal();
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Get the local.
+     *
+     * @return local
+     */
+    public String getLocal() {
+        return local;
+    }
+
+    /**
+     * Local setter.
+     * @param local
+     */
+    public void setLocal(String local) {
+        this.local = local;
+    }
+
+    /**
+     * Gets global id.
+     * @return global id
+     */
+    public String getGlobalIdLocal() {
+        return globalIdLocal;
+    }
+
+    /**
+     * Global id setter.
+     * @param globalIdLocal
+     */
+    public void setGlobalIdLocal(String globalIdLocal) {
+        this.globalIdLocal = globalIdLocal;
+    }
+}
