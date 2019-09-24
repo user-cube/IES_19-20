@@ -1,0 +1,11 @@
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS                        PORTS                                            NAMES
+ea354cd14a5c        postgres              "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes                  0.0.0.0:5432->5432/tcp                           pg-docker
+ebc9327a81a3        portainer/portainer   "/portainer"             16 minutes ago      Up 16 minutes                 0.0.0.0:8000->8000/tcp, 0.0.0.0:9000->9000/tcp   stoic_almeida
+160bd82dc758        ieslab1               "python app.py"          17 minutes ago      Created                                                                        zealous_archimedes
+d3c563139830        ieslab1               "python app.py"          30 minutes ago      Up 30 minutes                 0.0.0.0:4000->80/tcp                             gifted_torvalds
+dc134c7e2d6c        ieslab1               "python app.py"          34 minutes ago      Created                                                                        serene_dubinsky
+9cd8d0ca2a85        ieslab1               "python app.py"          35 minutes ago      Created                                                                        xenodochial_mcclintock
+8063bfa4bd3d        ieslab1               "python app.py"          37 minutes ago      Exited (255) 32 minutes ago   0.0.0.0:4000->80/tcp                             laughing_williams
+7ed8b4dd0111        43bb43a5ae09          "/bin/sh -c 'pip ins…"   39 minutes ago      Exited (0) 37 minutes ago                                                      hungry_panini
+d2f0ca1de521        43bb43a5ae09          "/bin/sh -c 'pip ins…"   40 minutes ago      Exited (0) 37 minutes ago                                                      unruffled_brown
+6136ef03fd75        hello-world           "/hello"                 41 minutes ago      Exited (0) 41 minutes ago                                                      objective_chandrasekhar
