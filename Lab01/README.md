@@ -2,12 +2,13 @@
 
 Resolução do primeiro guião da UC Introdução à Engenharia de Software.
 
-## O que é um maven goal?
+## Maven
+### O que é um maven goal?
 
 Quando é criada uma build de um projeto maven, percorremos uma sequência de fases e são executados os goals associados às mesmas. Um goal não passa de uma tarefa específica que contruibui para a build do projeto. É de salientar que este pode estar assoaciado a uma ou mais fases.
 É importante ainda referir que os Maven Plugins são também goals, contudo, este estão associados há mesma fase.
 
-## Quais os principais "maven goals" e a resptiva sequência de invocação?
+### Quais os principais "maven goals" e a resptiva sequência de invocação?
 Os principais goals por sequência de invocação, são:
 
 1. Na fase `compile` - `compiler:compile`
@@ -16,6 +17,19 @@ Os principais goals por sequência de invocação, são:
 4. Na fase `install` - `install:install`
 5. Na fase `package` - `jar:jar`
 
+## Install java
+```bash
+sudo add-apt-repository ppa:linuxuprising/java &&
+sudo apt update &&
+sudo apt-get install oracle-java11-installer-local &&
+sudo apt-get install oracle-java11-set-default-local
+```
+
+## Install Maven
+```bash
+sudo apt install maven &&
+mvn --version # To check if maven is installed
+```
 
 ## Docker
 ### Setup
