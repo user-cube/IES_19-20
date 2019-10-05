@@ -1,4 +1,6 @@
 package com.IES.lab02;
+
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -8,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "Deal", urlPatterns = {"/Deal"})
-public class Deal extends HttpServlet {
+@WebServlet(name = "IESServlet", urlPatterns = {"/IESServlet"})
+public class IESServlet extends HttpServlet {
 
     private static final long serialVersionUID = -1915463532411657451L;
 
@@ -17,29 +19,16 @@ public class Deal extends HttpServlet {
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException
     {
-
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
-
-        boolean success = validateUser(username, password);
-
         try {
             // Write some content
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>LoginServlet</title>");
+            out.println("<title>MyFirstServlet</title>");
             out.println("</head>");
             out.println("<body>");
-
-            if(success) {
-                out.println("<h2>Welcome Friend</h2>");
-            }else{
-                out.println("<h2>Validate your self again.</h2>");
-            }
-
+            out.println("<h2>Servlet MyFirstServlet at " + request.getContextPath() + "</h2>");
             out.println("</body>");
             out.println("</html>");
         } finally {
@@ -51,5 +40,10 @@ public class Deal extends HttpServlet {
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws ServletException, IOException {
         //Do some other work
+    }
+
+    @Override
+    public String getServletInfo() {
+        return "MyFirstServlet";
     }
 }
