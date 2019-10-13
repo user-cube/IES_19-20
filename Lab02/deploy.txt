@@ -1,0 +1,47 @@
+/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/bin/catalina.sh run
+[2019-10-13 03:36:16,512] Artifact lab02:war exploded: Waiting for server connection to start artifact deployment...
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Oct-2019 03:36:19.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.46
+13-Oct-2019 03:36:19.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 16 2019 18:16:19 UTC
+13-Oct-2019 03:36:19.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.46.0
+13-Oct-2019 03:36:19.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Oct-2019 03:36:19.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.0.0-31-generic
+13-Oct-2019 03:36:19.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2019 03:36:19.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Oct-2019 03:36:19.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+13-Oct-2019 03:36:19.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Oct-2019 03:36:19.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rc/.IntelliJIdea2019.2/system/tomcat/Unnamed_lab02
+13-Oct-2019 03:36:19.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46
+13-Oct-2019 03:36:19.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Oct-2019 03:36:19.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Oct-2019 03:36:19.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Oct-2019 03:36:19.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rc/.IntelliJIdea2019.2/system/tomcat/Unnamed_lab02/conf/logging.properties
+13-Oct-2019 03:36:19.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2019 03:36:19.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+13-Oct-2019 03:36:19.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+13-Oct-2019 03:36:19.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+13-Oct-2019 03:36:19.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=/home/rc/.IntelliJIdea2019.2/system/tomcat/Unnamed_lab02/jmxremote.password
+13-Oct-2019 03:36:19.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=/home/rc/.IntelliJIdea2019.2/system/tomcat/Unnamed_lab02/jmxremote.access
+13-Oct-2019 03:36:19.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+13-Oct-2019 03:36:19.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2019 03:36:19.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2019 03:36:19.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Oct-2019 03:36:19.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2019 03:36:19.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rc/.IntelliJIdea2019.2/system/tomcat/Unnamed_lab02
+13-Oct-2019 03:36:19.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46
+13-Oct-2019 03:36:19.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/temp
+13-Oct-2019 03:36:19.772 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Oct-2019 03:36:19.943 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 03:36:19.976 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2019 03:36:20.060 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2019 03:36:20.070 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2019 03:36:20.080 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2145 ms
+13-Oct-2019 03:36:20.359 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2019 03:36:20.359 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.46
+13-Oct-2019 03:36:20.413 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 03:36:20.476 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2019 03:36:20.547 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 466 ms
+Connected to server
+[2019-10-13 03:36:21,030] Artifact lab02:war exploded: Artifact is being deployed, please wait...
+[2019-10-13 03:36:22,113] Artifact lab02:war exploded: Artifact is deployed successfully
+[2019-10-13 03:36:22,114] Artifact lab02:war exploded: Deploy took 1,084 milliseconds

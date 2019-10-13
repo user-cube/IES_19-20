@@ -1,0 +1,52 @@
+13-Oct-2019 01:24:47.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.46
+13-Oct-2019 01:24:47.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 16 2019 18:16:19 UTC
+13-Oct-2019 01:24:47.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.46.0
+13-Oct-2019 01:24:47.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Oct-2019 01:24:47.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.0.0-31-generic
+13-Oct-2019 01:24:47.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2019 01:24:47.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+13-Oct-2019 01:24:47.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+13-Oct-2019 01:24:47.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+13-Oct-2019 01:24:47.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46
+13-Oct-2019 01:24:47.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46
+13-Oct-2019 01:24:47.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Oct-2019 01:24:47.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Oct-2019 01:24:47.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Oct-2019 01:24:47.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/conf/logging.properties
+13-Oct-2019 01:24:47.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2019 01:24:47.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2019 01:24:47.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2019 01:24:47.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Oct-2019 01:24:47.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2019 01:24:47.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46
+13-Oct-2019 01:24:47.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46
+13-Oct-2019 01:24:47.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/temp
+13-Oct-2019 01:24:47.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+13-Oct-2019 01:24:47.140 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 01:24:47.197 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2019 01:24:47.223 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2019 01:24:47.225 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2019 01:24:47.226 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1285 ms
+13-Oct-2019 01:24:47.327 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2019 01:24:47.327 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.46
+13-Oct-2019 01:24:47.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/host-manager]
+13-Oct-2019 01:24:47.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/host-manager] has finished in [415] ms
+13-Oct-2019 01:24:47.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/examples]
+13-Oct-2019 01:24:48.201 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/examples] has finished in [427] ms
+13-Oct-2019 01:24:48.202 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/ROOT]
+13-Oct-2019 01:24:48.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/ROOT] has finished in [19] ms
+13-Oct-2019 01:24:48.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/docs]
+13-Oct-2019 01:24:48.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/docs] has finished in [53] ms
+13-Oct-2019 01:24:48.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/manager]
+13-Oct-2019 01:24:48.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/rc/Desktop/IES/IES_19-20/Lab02/apache-tomcat-8.5.46/webapps/manager] has finished in [65] ms
+13-Oct-2019 01:24:48.347 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 01:24:48.383 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2019 01:24:48.387 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1160 ms
+13-Oct-2019 01:28:21.946 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+13-Oct-2019 01:28:28.401 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 01:28:28.412 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2019 01:28:28.415 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Oct-2019 01:28:28.524 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 01:28:28.528 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2019 01:28:28.534 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Oct-2019 01:28:28.535 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
