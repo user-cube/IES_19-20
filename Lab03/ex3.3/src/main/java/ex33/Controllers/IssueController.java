@@ -30,7 +30,7 @@ public class IssueController {
         return "redirect:/issuereport";
     }
 
-    @GetMapping("/issues")
+    @GetMapping("/templates/issues")
     public String getIssues(Model model) {
         model.addAttribute("issues", this.issueRepository.findAllButPrivate());
         return "issues/issuereport_list";
