@@ -12,17 +12,17 @@ Learning outcomes
 
 * GET Method
 <br>
-!["GET"](get.png)
+<img src='get.png'></a>
 <br>
 <br>
 * POST Method
 <br>
-!["POST"](post.png)
+<img src='post.png'></a>
 <br>
 <br>
 * PUT Method
 <br>
-!["PUT"](put.png)
+<img src='put.png'></a>
 
 ## What happens to your data when the application is stopped and restarted? How could you change  that behavior?
 A API retorna todos os valores de origem.
